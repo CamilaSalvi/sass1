@@ -1,0 +1,34 @@
+@import "fuentes(1)";
+@import "colores(3)";
+@import "nav";
+.background-color{
+    background-color: red;
+}
+.titulo{
+    color: white;
+}
+.fuente{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*
+.lista{
+    list-style-type:circle;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+}*/
+ul {
+    list-style: circle;
+    background-color: grey;
+    width: 75%;
+    li{
+        color: white;
+        &:hover{
+            color: blue;
+        }
+        
+    }	
+}
+.div1{
+   font-size: large;
+}
